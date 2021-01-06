@@ -11,7 +11,7 @@ class Whisper(commands.Cog):
     @commands.command(aliases=['w', 'secret', 'text'])
     async def whisper(self, ctx, member: discord.Member, *, message=''):
         if message == '':
-            msg = ['hi', 'test']
+            msg = ['hi', 'hello']
             message = choice(msg)
         await member.send(message)
         await ctx.channel.purge(limit=1)
