@@ -130,7 +130,7 @@ class server(commands.Cog):
     @commands.command()
     async def ping(self, ctx):
         await ctx.channel.purge(limit=1)
-        await ctx.send(f'Pong! {round(self.client.latency * 1000)}ms')
+        await ctx.send(f'Pong {round(self.client.latency * 1000)}ms')
     
 
 def setup(client):
