@@ -7,7 +7,7 @@ class Whisper(commands.Cog):
 
     def __init__(self, client):
         self.client = client
-
+    
     @commands.command(aliases=['w', 'secret', 'text'])
     async def whisper(self, ctx, member: discord.Member, *, message=''):
         if message == '':

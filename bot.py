@@ -1,5 +1,6 @@
 import os
 import discord
+from discord.ext.commands.core import command
 from dotenv import load_dotenv
 from discord.ext import commands, tasks
 from discord.utils import get
