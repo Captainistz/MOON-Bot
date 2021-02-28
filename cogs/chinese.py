@@ -1,8 +1,6 @@
 import discord
 import math
 import os
-from discord import voice_client
-from discord import client
 from discord.ext import commands
 from gtts import gTTS
 from googletrans import Translator
